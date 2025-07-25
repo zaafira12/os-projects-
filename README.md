@@ -1,2 +1,2 @@
-# os-projects-
+# Os-projects-
 A collection of basic Operating Systems concept simulations
