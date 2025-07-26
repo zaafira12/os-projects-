@@ -1,0 +1,17 @@
+##  Code Explanation
+This section outlines the steps the Python code follows to simulate the scheduling algorithm.
+
+# Step 1: Input all process arrival times and burst times.
+
+# Step 2: Store them in a list of tuples: (index, AT, BT)
+# - Index is used to map results back to original process order.
+
+# Step 3: Sort processes by (AT, BT)
+# - This ensures shortest jobs that have already arrived are considered first.
+
+# Step 4: For each time unit:
+# - Pick the shortest job from those that have already arrived
+# - Update current time
+# - Calculate CT, TAT, WT
+
+# Step 5: Print the final scheduling table
