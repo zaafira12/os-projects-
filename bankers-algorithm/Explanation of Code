@@ -1,0 +1,21 @@
+## Code Explanation
+
+1. **Input:**
+   - Number of processes `n`, resources `m`
+   - Allocation matrix: current resource use by each process
+   - Max matrix: max resources each process may need
+   - Available array: resources currently available
+
+2. **Need matrix** is calculated as:
+Need[i][j] = Max[i][j] - Allocation[i][j]
+
+3. **Safe State Check:**
+- Repeatedly check if any process can finish with the current available resources.
+- If yes, simulate its execution by releasing its resources back.
+- If all processes can finish, the system is in a **safe state**,else **unsafe state**
+
+4. **Output:**
+- Whether the system is in a safe state.
+- The safe sequence if one exists.
+
+---
