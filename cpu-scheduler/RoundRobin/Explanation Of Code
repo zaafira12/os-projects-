@@ -1,0 +1,24 @@
+##  Code Explanation
+
+This section outlines the steps the Python code follows to simulate the scheduling algorithm.
+
+# Step 1: Input number of processes, arrival & burst times
+
+# Step 2: Input time quantum (fixed CPU time per process in one go)
+
+# Step 3: Initialize:
+# - rem_bt[] = Remaining burst times (copy of original BTs)
+# - visited[] = Tracks whether a process has been added to the queue
+# - queue = FIFO queue of process indices ready to run
+
+# Step 4: Start the clock at time = 0
+# - Add processes that have already arrived
+# - For each process in queue:
+#   - Run for min(quantum, remaining time)
+#   - Add any new arrivals to the queue
+#   - If not finished, re-add the current process to the end
+
+# Step 5: After all are completed:
+# - Calculate Completion Time, Turnaround Time, Waiting Time
+# - Print the final table
+
