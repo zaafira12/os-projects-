@@ -2,8 +2,8 @@
 
 This project demonstrates the classic **Producer-Consumer Problem** using Python, with two versions:
 
-- `solution.py` – With **Semaphore and Lock synchronization**
-- `problem.py` – Without synchronization to show the issue
+- `P AND C Sol .py` – With **Semaphore and Lock synchronization**
+- `P AND C PROBLEM .py` – Without synchronization to show the issue
 
 ---
 
