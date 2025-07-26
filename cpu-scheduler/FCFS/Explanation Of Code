@@ -1,0 +1,18 @@
+## Code Explanation
+This section outlines the steps the Python code follows to simulate the scheduling algorithm.
+
+
+# Step 1: Input process count and details
+# The user enters arrival time and burst time for each process.
+
+# Step 2: Store all info as a list of (PID, AT, BT)
+# Then sort this list by Arrival Time (since FCFS runs by order of arrival).
+
+# Step 3: For each process (in order):
+# - If the CPU is idle (time < arrival), we wait
+# - Compute Completion Time: current time + burst time
+# - Turnaround Time = Completion Time - Arrival Time
+# - Waiting Time = Turnaround Time - Burst Time
+
+# Step 4: Print a formatted table with all metrics
+
