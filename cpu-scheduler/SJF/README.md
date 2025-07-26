@@ -39,11 +39,18 @@ Enter Burst Time for P7:  3
 
 ## Sample Output
 P	  AT BT CT TAT WT
+
 P1	1  4	 5	4	 0
+
 P7	2	 3	 8	6  3
+
 P5	6	 2	10	4	  2
+
 P2	6	 8  18  12	4
+
 P3	7	 2	20	13	11
+
 P4	7	 3	23	16	13
+
 P6	9	 4	27	18	14
 
