@@ -38,7 +38,7 @@ Manages how pages are loaded into memory when frames are full. Includes:
 
 | Algorithm | Description                                       | Link         |
 |-----------|---------------------------------------------------|--------------|
-| FIFO      | Replaces the oldest page in memory                | [View](page-replacement/fifo) |
+| FIFO      | Replaces the oldest page in memory                | [View](page-replacement/Fifo) |
 | FCFS      | Similar to FIFO, kept for scheduling-style view   | [View](page-replacement/fcfs) |
 | LRU       | Removes the least recently used page              | [View](page-replacement/LRU)  |
 
