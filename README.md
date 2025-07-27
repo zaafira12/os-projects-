@@ -23,7 +23,7 @@ Simulates how an OS schedules processes for execution on the CPU. Includes:
 
 | Algorithm       | Description                                  | Link        |
 |----------------|----------------------------------------------|-------------|
-| FCFS            | First-Come, First-Served (non-preemptive)    | [View](./cpu-scheduling/fcfs) |
+| FCFS            | First-Come, First-Served (non-preemptive)    | [View](cpu-scheduler/FCFS) |
 | SJF             | Shortest Job First (non-preemptive)          | [View](./cpu-scheduling/SJF)  |
 | Round Robin     | Time-slice based preemptive scheduling       | [View](./cpu-scheduling/roundrobin) |
 
