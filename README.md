@@ -55,20 +55,21 @@ Implements the classic **Banker's Algorithm** used for **safe state checking** i
 - Accepts input for available resources, allocation, and maximum need
 - Calculates **Need Matrix** and performs **Safety Check**
 
- View Project(bankers-algorithm)
+ [View Project](bankers-algorithm)
 
 ---
 
-### 4. Producer-Consumer Problem (With Semaphores)
-
+### 4. 🔁 Producer-Consumer Problem (With Semaphores)
 Classic **process synchronization problem**, demonstrating inter-process communication using a **bounded buffer**.
 
-| Part       | Description                                 
-|------------|---------------------------------------------------|
-| Problem    | Simulates producer waiting when buffer full, and consumer when empty | 
-| Solution   | Uses **Semaphore** logic to synchronize producer and consumer actions | 
 
-View Project(producer-consumer)
+| Part     | Description                                                                     |
+|----------|---------------------------------------------------------------------------------|
+| Problem  | Simulates producer waiting when buffer is full, and consumer when empty         |
+| Solution | Uses Semaphore logic to synchronize producer and consumer actions               |
+
+ [View Project](producer-consumer)
+
 ---
 
 ##  Folder Structure
