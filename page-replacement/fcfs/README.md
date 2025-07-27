@@ -32,6 +32,7 @@ In **memory management**, FCFS is one of the simplest page replacement technique
 
 ###  Input
  Enter page reference string (space-separated):  1 3 5 8 0 2 4 1 3 5 8 9 
+ 
  Enter number of frames:  3
 
 ### Output
