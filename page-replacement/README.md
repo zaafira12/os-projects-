@@ -1,4 +1,4 @@
-#  Page Replacement Algorithms – Operating System Project
+#  Page Replacement Algorithms 
 
 This repository contains Python implementations of the **most common Page Replacement Algorithms** used in Operating Systems to manage memory effectively.
 
