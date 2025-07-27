@@ -24,8 +24,8 @@ Simulates how an OS schedules processes for execution on the CPU. Includes:
 | Algorithm       | Description                                  | Link        |
 |----------------|----------------------------------------------|-------------|
 | FCFS            | First-Come, First-Served (non-preemptive)    | [View](cpu-scheduler/FCFS) |
-| SJF             | Shortest Job First (non-preemptive)          | [View](./cpu-scheduling/SJF)  |
-| Round Robin     | Time-slice based preemptive scheduling       | [View](./cpu-scheduling/roundrobin) |
+| SJF             | Shortest Job First (non-preemptive)          | [View](cpu-scheduling/SJF)  |
+| Round Robin     | Time-slice based preemptive scheduling       | [View](cpu-scheduler/RoundRobin) |
 
  **Input:** Process burst times, arrival times (optional), and quantum (for RR)  
  **Output:** Gantt Chart, Waiting Time, Turnaround Time  
@@ -38,9 +38,9 @@ Manages how pages are loaded into memory when frames are full. Includes:
 
 | Algorithm | Description                                       | Link         |
 |-----------|---------------------------------------------------|--------------|
-| FIFO      | Replaces the oldest page in memory                | [View](./page-replacement/fifo) |
-| FCFS      | Similar to FIFO, kept for scheduling-style view   | [View](./page-replacement/fcfs) |
-| LRU       | Removes the least recently used page              | [View](./page-replacement/LRU)  |
+| FIFO      | Replaces the oldest page in memory                | [View](page-replacement/fifo) |
+| FCFS      | Similar to FIFO, kept for scheduling-style view   | [View](page-replacement/fcfs) |
+| LRU       | Removes the least recently used page              | [View](page-replacement/LRU)  |
 
  **Input:** Reference string, number of frames  
  **Output:** Page hits, page faults, memory status
@@ -55,7 +55,7 @@ Implements the classic **Banker's Algorithm** used for **safe state checking** i
 - Accepts input for available resources, allocation, and maximum need
 - Calculates **Need Matrix** and performs **Safety Check**
 
-📌 [View Project](./bankers-algorithm)
+📌 [View Project](bankers-algorithm)
 
 ---
 
@@ -65,8 +65,8 @@ Classic **process synchronization problem**, demonstrating inter-process communi
 
 | Part       | Description                                 | Link |
 |------------|---------------------------------------------|------|
-| Problem    | Simulates producer waiting when buffer full, and consumer when empty | [View](./producer-consumer/problem) |
-| Solution   | Uses **Semaphore** logic to synchronize producer and consumer actions | [View](./producer-consumer/solution) |
+| Problem    | Simulates producer waiting when buffer full, and consumer when empty | [View](producer-consumer/problem) |
+| Solution   | Uses **Semaphore** logic to synchronize producer and consumer actions | [View](producer-consumer/solution) |
 
 ---
 
