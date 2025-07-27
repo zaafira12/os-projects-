@@ -55,7 +55,7 @@ Implements the classic **Banker's Algorithm** used for **safe state checking** i
 - Accepts input for available resources, allocation, and maximum need
 - Calculates **Need Matrix** and performs **Safety Check**
 
-📌 [View Project](bankers-algorithm)
+ View Project(bankers-algorithm)
 
 ---
 
@@ -63,26 +63,40 @@ Implements the classic **Banker's Algorithm** used for **safe state checking** i
 
 Classic **process synchronization problem**, demonstrating inter-process communication using a **bounded buffer**.
 
-| Part       | Description                                 | Link |
-|------------|---------------------------------------------|------|
+| Part       | Description                                 
+|------------|---------------------------------------------------|
 | Problem    | Simulates producer waiting when buffer full, and consumer when empty | 
 | Solution   | Uses **Semaphore** logic to synchronize producer and consumer actions | 
 
+View Project(producer-consumer)
 ---
 
 ##  Folder Structure
 
 os-project/
+
 ├── cpu-scheduling/
+
 │ ├── fcfs/
+
 │ ├── sjf/
+
 │ └── roundrobin/
+
 ├── page-replacement/
+
 │ ├── fifo/
+
 │ ├── fcfs/
+
 │ └── lru/
+
 ├── bankers-algorithm/
+
 ├── producer-consumer/
+
 │ ├── problem/
+
 │ └── solution/
-└── README.md <-- (This file)
+
+└── README.md 
