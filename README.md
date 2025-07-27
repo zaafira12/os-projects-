@@ -65,7 +65,7 @@ Classic **process synchronization problem**, demonstrating inter-process communi
 
 | Part       | Description                                 | Link |
 |------------|---------------------------------------------|------|
-| Problem    | Simulates producer waiting when buffer full, and consumer when empty | [View](producer-consumer/problem) |
+| Problem    | Simulates producer waiting when buffer full, and consumer when empty | [View](producer-consumer/P AND C PROBLEM .py) |
 | Solution   | Uses **Semaphore** logic to synchronize producer and consumer actions | [View](producer-consumer/solution) |
 
 ---
