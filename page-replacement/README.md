@@ -17,7 +17,6 @@ Each algorithm has its own folder with:
 -  Python code
 - User input support
 -  Page fault and hit tracking
--  Code explanation
 -  Individual README
 
 ###  1. FIFO – First-Come, First-Served
